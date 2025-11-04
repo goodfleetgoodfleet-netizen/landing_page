@@ -53,7 +53,7 @@ export const ContactUs = () => {
               <div className="email">
                 <i className="icofont-envelope"></i>
                 <h4>Email </h4>
-                <p>ste.gps4world@gmail.com</p>
+                <p>contact@gps4world.ma</p>
               </div>
 
               <div className="phone">

@@ -28,7 +28,7 @@ const Footer = () => {
                     <br />
                     <strong>Phone:</strong> +212 660 559129
                     <br />
-                    <strong>Email:</strong> ste.gps4world@gmail.com
+                    <strong>Email:</strong> contact@gps4world.ma
                     <br />
                   </p>
                 </div>
@@ -42,7 +42,7 @@ const Footer = () => {
                     <br />
                     <strong>Phone:</strong> +212 660 559129
                     <br />
-                    <strong>Email:</strong> ste.gps4world@gmail.com
+                    <strong>Email:</strong> contact@gps4world.ma
                     <br />
                   </p>
                 </div>
@@ -56,7 +56,7 @@ const Footer = () => {
                     <br />
                     <strong>Phone:</strong> +212 660 559129
                     <br />
-                    <strong>Email:</strong> ste.gps4world@gmail.com
+                    <strong>Email:</strong> contact@gps4world.ma
                     <br />
                   </p>
                 </div>

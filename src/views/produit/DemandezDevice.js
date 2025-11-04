@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import {send} from "emailjs-com";
 
 const DemandezDevice = () => {
-  const intialState = {
+  const initialState = {
     raison_social: "",
     email: "",
     tel: "",
@@ -11,13 +11,13 @@ const DemandezDevice = () => {
     options: "",
     message: "",
   }
-  const [demande, setDemande] = useState(intialState);
+  const [demande, setDemande] = useState(initialState);
   console.log(demande)
   const onSubmit = (e) => {
     e.preventDefault();
     //Send demande
     send('service_xyuy0ra','template_eug1a6b',demande, 'user_V3XdvICWgQJaLVLpIa1Pl').then(res => {
-      alert("Demende envoyée"); setDemande(intialState);
+      alert("Demande envoyée"); setDemande(initialState);
     }).catch(err => console.log(err));
   }
   const handleChange = e=> {
@@ -75,7 +75,7 @@ const DemandezDevice = () => {
                 value={demande.tel}
                 onChange={handleChange}
                 id="tel"
-                placeholder="Télephone"
+                placeholder="Téléphone"
                 data-rule="minlen:4"
                 data-msg="Please enter at least 4 chars"
               />
@@ -108,8 +108,8 @@ const DemandezDevice = () => {
                 <option value="Voitures">Voitures</option>
                 <option value="Motorcycles">Motorcycles</option>
                 <option value="Utilitaires">Utilitaires</option>
-                <option value="Camoins">Camoins</option>
-                <option value="Poid-lourds">Poid-lourds</option>
+                <option value="Camions">Camions</option>
+                <option value="Poids-lourds">Poids-lourds</option>
                 <option value="Engins BTP">Engins BTP</option>
                 <option value="Conteneurs">Conteneurs</option>
                 <option value="Personnels">Personnels</option>
@@ -126,8 +126,8 @@ const DemandezDevice = () => {
                   Avec geoLocalisation internationale
                 </option>
                 <option value="Avec identification conducteur">Avec identification conducteur</option>
-                <option value="Avec capteur d'ouverteure capot">
-                  Avec capteur d'ouverteure capot
+                <option value="Avec capteur d'ouverture capot">
+                  Avec capteur d'ouverture capot
                 </option>
               </select>
               <div className="validate"></div>
@@ -149,7 +149,7 @@ const DemandezDevice = () => {
             <div className="loading">Loading</div>
             <div className="error-message"></div>
             <div className="sent-message">
-              votre demande a été enregistré. Merci!
+              Votre demande a été enregistrée. Merci!
             </div>
           </div>
           <div className="text-center">
