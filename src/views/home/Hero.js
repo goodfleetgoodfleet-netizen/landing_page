@@ -43,10 +43,7 @@ export const Hero = () => {
         </div>
       </div>
       
-      <div className="hero-scroll-indicator">
-        <span>Défiler</span>
-        <div className="scroll-arrow"></div>
-      </div>
+ 
     </section>
   );
 };

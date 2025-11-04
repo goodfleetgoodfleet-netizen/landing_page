@@ -12,6 +12,19 @@
   overflow: hidden;
   padding: 0;
   margin: 0;
+  padding-top: 80px; /* Space for fixed navbar */
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    padding-top: 70px; /* Adjusted for mobile navbar height */
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-section {
+    padding-top: 65px; /* Adjusted for small mobile navbar height */
+  }
 }
 
 /* Background */

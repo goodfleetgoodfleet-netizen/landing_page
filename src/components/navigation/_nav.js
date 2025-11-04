@@ -1,15 +1,15 @@
 const _nav = [
   {
     name: "Accueil",
-    to: "/home",
+    to: "hero",
   },
   {
     name: "à propos de nous",
-    to: "/about",
+    to: "about",
   },
   {
     name: "Services et Produits",
-    to: "/servicesAndProducts",
+    to: "solutions",
   },
   {
     name: "Produits",
